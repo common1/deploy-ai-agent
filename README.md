@@ -55,3 +55,14 @@ docker compose up --remove-orphans
 docker compose down
 ```
 
+## 05  Build Custom Image with Docker Compose
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=2726s]
+
+```bash
+docker compose built
+docker compose up
+docker compose down
+docker compose up --build
+```
+
