@@ -25,3 +25,14 @@ docker build -f Dockerfile -t pyapp .
 docker run -it pyapp
 ```
 
+## 02 Publish on Docker Hub
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=1646s]
+
+
+```bash
+docker build -f Dockerfile -t dockerdev1/ai-pyapp-test:latest .
+docker push dockerdev1/ai-pyapp-test:latest
+docker run -it dockerdev1/ai-pyapp-test:latest
+```
+
