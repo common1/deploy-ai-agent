@@ -124,3 +124,9 @@ docker compose up --watch
 docker compose run backend /bin/bash
 ```
 
+## 12 Docker Ignore File and Volumes
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=5295s]
+
+```bash
+```
