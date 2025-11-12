@@ -45,3 +45,13 @@ docker build -f Dockerfile -t
 docker run -p 8080:8000 pyapp
 ```
 
+## 04 Your First Docker Compose Service
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=2228s]
+
+```bash
+docker compose up
+docker compose up --remove-orphans
+docker compose down
+```
+
