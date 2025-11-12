@@ -36,3 +36,12 @@ docker push dockerdev1/ai-pyapp-test:latest
 docker run -it dockerdev1/ai-pyapp-test:latest
 ```
 
+## 03 Accessing Python Web Servers in Docker
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=1985s]
+
+```bash
+docker build -f Dockerfile -t
+docker run -p 8080:8000 pyapp
+```
+
