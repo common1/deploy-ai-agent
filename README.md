@@ -104,3 +104,14 @@ docker compose up
 docker compose down -v
 ```
 
+## 10 Hello World with Docker and FastAPI
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=4131s]
+
+```bash
+docker compose down
+docker compose up --build
+docker compose run backend /bin/bash
+docker compose up --build
+```
+
