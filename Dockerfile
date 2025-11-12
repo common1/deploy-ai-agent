@@ -1,6 +1,10 @@
 # ceclare what image to use
 FROM python:3.13.4-slim-bullseye
 
+WORKDIR /app
+
+RUN echo "Hello" > index.html
+
 # docker build -f Dockerfile -t pyapp .
 # docker run -it pyapp
 

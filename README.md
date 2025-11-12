@@ -66,3 +66,17 @@ docker compose down
 docker compose up --build
 ```
 
+## 06 Configure Dockerfile to Render HTML
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=2869s]
+
+```bash
+docker compose run app /bin/bash
+docker compose down
+docker compose up --build
+docker compose run app /bin/bash
+docker compose down --remove-orphans
+docker compose up --build
+docker compose run app /bin/bash
+```
+
