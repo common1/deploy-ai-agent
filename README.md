@@ -80,3 +80,11 @@ docker compose up --build
 docker compose run app /bin/bash
 ```
 
+## 07 Copy Local Files to Docker Container
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=3275s]
+
+```bash
+docker compose up --build
+```
+
