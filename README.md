@@ -87,4 +87,12 @@ docker compose run app /bin/bash
 ```bash
 docker compose up --build
 ```
+## 08 Moving the Dockerfile and Build Context
+
+[https://www.youtube.com/watch?v=KC8HT0eWSGk&t=3638s]
+
+```bash
+docker compose down --remove-orphans
+docker compose up --build
+```
 
